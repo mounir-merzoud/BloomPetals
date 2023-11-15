@@ -1,0 +1,59 @@
+head{
+    font-family: 'Times New Roman', Times, serif
+
+}
+.nav-menu {
+    background-color: #f10f0f;
+    list-style: none;
+    padding: 10px 50px;
+    text-align: center;
+    display: flex;
+    border-radius: 10%;
+    margin: 20px 20px;
+}
+.nav-menu li {
+    margin-left: 36px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold; width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #007bff;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: blue;
+}
+div .skils-fleurs {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.skils-fleurs img{
+    grid-row: 1;
+    grid-column: 1;
+   
+    height: 80px;
+    width: 80px;
+
+}
+.skils-equipe img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    grid-row: 1;
+
+
+}

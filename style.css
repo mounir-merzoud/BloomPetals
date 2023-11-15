@@ -1,0 +1,103 @@
+head{
+    font-family: 'Times New Roman', Times, serif
+
+}
+.nav-menu {
+    background-color: #f10f0f;
+    list-style: none;
+    padding: 10px 50px;
+    text-align: center;
+    display: flex;
+    border-radius: 10%;
+    margin: 20px 20px;
+}
+.nav-menu li {
+    margin-left: 36px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold; width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #007bff;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: blue;
+}
+p{
+    margin: 20px 20px;
+
+}
+.horizental-line {
+    position: absolute;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    top: 260px;
+    margin: 20PX 20PX;
+}
+.picture img {
+    width: 11%;
+    height: 40%;
+    align-items: center;
+    margin: 47px 80px 30px;
+    display: inline-flex;
+    border-radius: 10%;
+    border: 2px solid #000;
+
+}
+.horizental-line2 {
+    position: absolute;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    top: 440px;
+    margin: 20PX 20PX;
+}
+.service {
+        text-align: center;
+        padding: 20px;
+}
+
+/* Styles pour les paragraphes */
+.service p {
+    margin: -2px;
+    font-size: 9px;
+    max-width: 33%;
+    display: -webkit-inline-box;
+    /* display: grid;
+  grid-auto-flow: initial;
+  grid-gap: 20px; */
+}
+.service h2{
+    margin: 115px;
+    font-size: 15px;
+    max-width: 28%;
+    display: inline;
+}
+.horizental-line3 {
+    position: absolute;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    top: 610px;
+    margin: auto;
+    justify-content: center;
+}
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333; 
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+    
+    }
