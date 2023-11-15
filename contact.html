@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>formulaire de contact </title>
+</head>
+<body>
+    <header>
+        <h1>contactez nous : </h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <label for="civilite">Civilité:</label>
+            <select id="civilite" name="civilite">
+                <option value="a renseigner">-</option>
+                <option value="monsieur">Monsieur</option>
+                <option value="madame">Madame</option>
+                <option value="mademoiselle">Mademoiselle</option>
+            </select>
+    
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+    
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+    
+            <label for="adresse">Adresse postale:</label>
+            <input type="text" id="adresse" name="adresse" required>
+    
+            <label>
+                <input type="checkbox" name="confidentialite" required>
+                J'accepte les politiques de confidentialité de l'entreprise.
+            </label>
+    
+            <input type="submit" value="Valider">
+        </form>
+    
+    </main>
+    
+</body>
+</html>
